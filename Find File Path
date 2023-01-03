@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+FILE="e/shell_scripting/file_condition.sh"
+if [ -e "$FILE" ]; then
+  echo "$FILE passwords are enabled"
+fi
+if [ -x "FILE" ]; then
+  echo "you have permission to execute $FILe"
+else
+  echo "you don't have permission to execute $FILE"
+fi
