@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+#swith to root
+sudo su root
+
+#apache installation
+yum -y install httpd
+systemctl start httpd
+echo "This is for testing" > /var/www/html/index.html
