@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+ANIMALS="Tiger Bear Lion Cheetah Dog"
+for ANIMAL IN $ANIMALS
+  do 
+  echo $ANIMAL
+  done
