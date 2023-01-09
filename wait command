@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+wait 1234
+echo "done"
