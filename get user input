@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+echo "What is your age ?"
+read age
+echo "WOW! You look younge than $age years old"
