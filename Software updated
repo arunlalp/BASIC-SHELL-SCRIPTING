@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+# Update the package list
+yum check-update
+
+# Upgrade all installed packages
+yum -y upgrade
+
+# Update conformation
+echo "Sucessfull upgrade all packages"
